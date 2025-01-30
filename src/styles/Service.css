@@ -1,0 +1,15 @@
+.service {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .service h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .service p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
