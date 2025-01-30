@@ -1,0 +1,50 @@
+.product-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #f9f9f9;
+    text-align: center;
+  }
+  
+  .product-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .product-form label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  
+  .product-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .product-form button {
+    width: 100%;
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-form button:hover {
+    background: #218838;
+  }
+  
+  .message {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
