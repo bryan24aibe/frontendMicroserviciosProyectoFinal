@@ -1,0 +1,15 @@
+.promotions {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .promotions h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .promotions p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
