@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { CartProvider } from './context/CartContext';  // 🔹 Importar el contexto del carrito
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <CartProvider>  {/* 🔹 Envolver la app dentro del contexto del carrito */}
+      <App />
+    </CartProvider>
   </React.StrictMode>
 );
 
