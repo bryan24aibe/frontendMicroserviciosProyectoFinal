@@ -1,0 +1,15 @@
+.refunds {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .refunds h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .refunds p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
